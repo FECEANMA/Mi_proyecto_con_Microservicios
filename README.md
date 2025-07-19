@@ -43,11 +43,11 @@ Cada microservicio sigue la arquitectura típica de NestJS, con sus propios mód
 
 #### auth-service/
 
-<img src="./img/2.png" width="400">
+<img src="./img/2.png" width="200">
 
 #### energy-service/
 
-<img src="./img/1.png" width="400">
+<img src="./img/1.png" width="200">
 
 **Cada uno:**
 - Se ejecuta de forma **independiente**.
