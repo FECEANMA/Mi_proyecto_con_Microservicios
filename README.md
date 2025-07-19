@@ -42,31 +42,12 @@ Cada microservicio sigue la arquitectura típica de NestJS, con sus propios mód
 ### Estructura común de microservicios:
 
 #### auth-service/
-```
-auth-service/
-├── src/
-│   ├── auth/
-│   │   ├── auth.controller.ts
-│   │   ├── auth.service.ts
-│   ├── users/
-│   │   ├── user.entity.ts
-│   ├── registerConsul.ts
-│   ├── main.ts
-├── Dockerfile
-```
+
+<img src="./img/2.png" width="800">
 
 #### energy-service/
-```
-energy-service/
-├── src/
-│   ├── energy/
-│   │   ├── energy.controller.ts
-│   │   ├── energy.service.ts
-│   │   ├── overload.entity.ts
-│   ├── registerConsul.ts
-│   ├── main.ts
-├── Dockerfile
-```
+
+<img src="./img/1.png" width="800">
 
 **Cada uno:**
 - Se ejecuta de forma **independiente**.
